@@ -1,0 +1,857 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52015A3C24B30FCE009EEE5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52015A3B24B30FCE009EEE5E /* AppDelegate.swift */; };
+		5224262A247BB60D005BDDD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52242629247BB60D005BDDD8 /* SceneDelegate.swift */; };
+		5224262C247BB60D005BDDD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5224262B247BB60D005BDDD8 /* ViewController.swift */; };
+		5224262F247BB60D005BDDD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5224262D247BB60D005BDDD8 /* Main.storyboard */; };
+		52242631247BB610005BDDD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52242630247BB610005BDDD8 /* Assets.xcassets */; };
+		52242634247BB610005BDDD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52242632247BB610005BDDD8 /* LaunchScreen.storyboard */; };
+		5224263F247BB611005BDDD8 /* FitBook2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5224263E247BB611005BDDD8 /* FitBook2Tests.swift */; };
+		5224264A247BB611005BDDD8 /* FitBook2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52242649247BB611005BDDD8 /* FitBook2UITests.swift */; };
+		52242658247BB728005BDDD8 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52242657247BB728005BDDD8 /* SignInViewController.swift */; };
+		5224265A247BB744005BDDD8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52242659247BB744005BDDD8 /* SignUpViewController.swift */; };
+		52242663247BD1C5005BDDD8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52242662247BD1C4005BDDD8 /* HomeViewController.swift */; };
+		52242664247BD1C5005BDDD8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52242662247BD1C4005BDDD8 /* HomeViewController.swift */; };
+		52242666247BD1F2005BDDD8 /* DiscaverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52242665247BD1F2005BDDD8 /* DiscaverViewController.swift */; };
+		52242667247BD1F2005BDDD8 /* DiscaverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52242665247BD1F2005BDDD8 /* DiscaverViewController.swift */; };
+		52242669247BD211005BDDD8 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52242668247BD211005BDDD8 /* CameraViewController.swift */; };
+		5224266A247BD211005BDDD8 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52242668247BD211005BDDD8 /* CameraViewController.swift */; };
+		5224266C247BD229005BDDD8 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5224266B247BD229005BDDD8 /* ActivityViewController.swift */; };
+		5224266D247BD229005BDDD8 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5224266B247BD229005BDDD8 /* ActivityViewController.swift */; };
+		5224266F247BD24F005BDDD8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5224266E247BD24F005BDDD8 /* ProfileViewController.swift */; };
+		52242670247BD24F005BDDD8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5224266E247BD24F005BDDD8 /* ProfileViewController.swift */; };
+		5245657224D85626003BA7B7 /* 3502.png in Resources */ = {isa = PBXBuildFile; fileRef = 5245657124D85626003BA7B7 /* 3502.png */; };
+		5245657424D85764003BA7B7 /* Aya21.png in Resources */ = {isa = PBXBuildFile; fileRef = 5245657324D85764003BA7B7 /* Aya21.png */; };
+		524D83AC24B30E88002FF34E /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D83AB24B30E88002FF34E /* config.swift */; };
+		524D83AE24B30ED0002FF34E /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D83AD24B30ED0002FF34E /* AuthService.swift */; };
+		52650EF7247BFE7300BEA41B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52650EF6247BFE7300BEA41B /* GoogleService-Info.plist */; };
+		526FDADC24AC8D7100F68290 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526FDADB24AC8D7100F68290 /* Post.swift */; };
+		5281DACE2496148A004057F6 /* VERSION.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5281DAC724961489004057F6 /* VERSION.txt */; };
+		5281DAD12496148A004057F6 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 5281DACA2496148A004057F6 /* Images */; };
+		52828ECF249F83BF00B44CC7 /* barpp.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 52828ECE249F83BF00B44CC7 /* barpp.JPG */; };
+		5285542B24C6384D00A9DA8E /* field.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5285542A24C6384C00A9DA8E /* field.jpg */; };
+		5285542D24C63AE700A9DA8E /* run.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5285542C24C63AE600A9DA8E /* run.jpeg */; };
+		5285543024C7949B00A9DA8E /* 350:350r.png in Resources */ = {isa = PBXBuildFile; fileRef = 5285542E24C7949B00A9DA8E /* 350:350r.png */; };
+		5285543124C7949B00A9DA8E /* 350:350l.png in Resources */ = {isa = PBXBuildFile; fileRef = 5285542F24C7949B00A9DA8E /* 350:350l.png */; };
+		5285543424C9E86300A9DA8E /* HaertRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285543324C9E86200A9DA8E /* HaertRate.swift */; };
+		529383F324BE28E200CCEB1F /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529383F224BE28E200CCEB1F /* Artwork.swift */; };
+		52F5D7A424C22A72002EC18B /* friends.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52F5D7A324C22A72002EC18B /* friends.jpeg */; };
+		52F5D7A624C22A9B002EC18B /* HAERT RATE .png in Resources */ = {isa = PBXBuildFile; fileRef = 52F5D7A524C22A9B002EC18B /* HAERT RATE .png */; };
+		52F5D7A824C22C91002EC18B /* BMI.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F5D7A724C22C91002EC18B /* BMI.png */; };
+		52F5D7AA24C2377F002EC18B /* bmi.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52F5D7A924C2377E002EC18B /* bmi.jpeg */; };
+		52F5D7AC24C237D9002EC18B /* hr.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52F5D7AB24C237D9002EC18B /* hr.jpeg */; };
+		52F5D7B124C4E908002EC18B /* ArtworkViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F5D7B024C4E908002EC18B /* ArtworkViews.swift */; };
+		52FDE7B124BF733600E26ECA /* runing person.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 52FDE7B024BF733600E26ECA /* runing person.jpeg */; };
+		8F8643ACD3BB4D1567CA4D29 /* Pods_FitBook2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F56AAE95D2182A1785E5970 /* Pods_FitBook2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5224263B247BB611005BDDD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5224261C247BB60D005BDDD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52242623247BB60D005BDDD8;
+			remoteInfo = FitBook2;
+		};
+		52242646247BB611005BDDD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5224261C247BB60D005BDDD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52242623247BB60D005BDDD8;
+			remoteInfo = FitBook2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52015A3B24B30FCE009EEE5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52242624247BB60D005BDDD8 /* FitBook2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitBook2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52242629247BB60D005BDDD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5224262B247BB60D005BDDD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5224262E247BB60D005BDDD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52242630247BB610005BDDD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52242633247BB610005BDDD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52242635247BB610005BDDD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5224263A247BB611005BDDD8 /* FitBook2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitBook2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5224263E247BB611005BDDD8 /* FitBook2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitBook2Tests.swift; sourceTree = "<group>"; };
+		52242640247BB611005BDDD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52242645247BB611005BDDD8 /* FitBook2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitBook2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52242649247BB611005BDDD8 /* FitBook2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitBook2UITests.swift; sourceTree = "<group>"; };
+		5224264B247BB611005BDDD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52242657247BB728005BDDD8 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		52242659247BB744005BDDD8 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		52242662247BD1C4005BDDD8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		52242665247BD1F2005BDDD8 /* DiscaverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscaverViewController.swift; sourceTree = "<group>"; };
+		52242668247BD211005BDDD8 /* CameraViewController.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		5224266B247BD229005BDDD8 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		5224266E247BD24F005BDDD8 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5245657124D85626003BA7B7 /* 3502.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3502.png; sourceTree = "<group>"; };
+		5245657324D85764003BA7B7 /* Aya21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Aya21.png; sourceTree = "<group>"; };
+		524D83AB24B30E88002FF34E /* config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
+		524D83AD24B30ED0002FF34E /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		52650EF6247BFE7300BEA41B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		526FDADB24AC8D7100F68290 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		5281DAC724961489004057F6 /* VERSION.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VERSION.txt; sourceTree = "<group>"; };
+		5281DACA2496148A004057F6 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		52828ECE249F83BF00B44CC7 /* barpp.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = barpp.JPG; sourceTree = "<group>"; };
+		5285542A24C6384C00A9DA8E /* field.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = field.jpg; sourceTree = "<group>"; };
+		5285542C24C63AE600A9DA8E /* run.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = run.jpeg; sourceTree = "<group>"; };
+		5285542E24C7949B00A9DA8E /* 350:350r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "350:350r.png"; sourceTree = "<group>"; };
+		5285542F24C7949B00A9DA8E /* 350:350l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "350:350l.png"; sourceTree = "<group>"; };
+		5285543324C9E86200A9DA8E /* HaertRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaertRate.swift; sourceTree = "<group>"; };
+		529383F224BE28E200CCEB1F /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		52F5D7A324C22A72002EC18B /* friends.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = friends.jpeg; sourceTree = "<group>"; };
+		52F5D7A524C22A9B002EC18B /* HAERT RATE .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HAERT RATE .png"; sourceTree = "<group>"; };
+		52F5D7A724C22C91002EC18B /* BMI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BMI.png; sourceTree = "<group>"; };
+		52F5D7A924C2377E002EC18B /* bmi.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bmi.jpeg; sourceTree = "<group>"; };
+		52F5D7AB24C237D9002EC18B /* hr.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hr.jpeg; sourceTree = "<group>"; };
+		52F5D7AD24C23BDE002EC18B /* home.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = home.mp4; sourceTree = "<group>"; };
+		52F5D7B024C4E908002EC18B /* ArtworkViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkViews.swift; sourceTree = "<group>"; };
+		52FDE7B024BF733600E26ECA /* runing person.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "runing person.jpeg"; sourceTree = "<group>"; };
+		64DA553F3070BB36EAABAF9C /* Pods-FitBook2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitBook2.debug.xcconfig"; path = "Target Support Files/Pods-FitBook2/Pods-FitBook2.debug.xcconfig"; sourceTree = "<group>"; };
+		6F56AAE95D2182A1785E5970 /* Pods_FitBook2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitBook2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EFA9C074C9617B8D12E8533 /* Pods-FitBook2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitBook2.release.xcconfig"; path = "Target Support Files/Pods-FitBook2/Pods-FitBook2.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52242621247BB60D005BDDD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8643ACD3BB4D1567CA4D29 /* Pods_FitBook2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52242637247BB611005BDDD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52242642247BB611005BDDD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09CEB5FEB841C3BEF8B28CAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64DA553F3070BB36EAABAF9C /* Pods-FitBook2.debug.xcconfig */,
+				7EFA9C074C9617B8D12E8533 /* Pods-FitBook2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		17741BE2534B0106FB554A13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F56AAE95D2182A1785E5970 /* Pods_FitBook2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5224261B247BB60D005BDDD8 = {
+			isa = PBXGroup;
+			children = (
+				52242626247BB60D005BDDD8 /* FitBook2 */,
+				5224265B247BB750005BDDD8 /* Other */,
+				5224263D247BB611005BDDD8 /* FitBook2Tests */,
+				52242648247BB611005BDDD8 /* FitBook2UITests */,
+				52242625247BB60D005BDDD8 /* Products */,
+				09CEB5FEB841C3BEF8B28CAC /* Pods */,
+				17741BE2534B0106FB554A13 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52242625247BB60D005BDDD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52242624247BB60D005BDDD8 /* FitBook2.app */,
+				5224263A247BB611005BDDD8 /* FitBook2Tests.xctest */,
+				52242645247BB611005BDDD8 /* FitBook2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52242626247BB60D005BDDD8 /* FitBook2 */ = {
+			isa = PBXGroup;
+			children = (
+				52F5D79E24C20D5A002EC18B /* Model */,
+				52015A3B24B30FCE009EEE5E /* AppDelegate.swift */,
+				524D83AD24B30ED0002FF34E /* AuthService.swift */,
+				524D83AB24B30E88002FF34E /* config.swift */,
+				529383F224BE28E200CCEB1F /* Artwork.swift */,
+				52F5D7B024C4E908002EC18B /* ArtworkViews.swift */,
+				52242672247BF7D6005BDDD8 /* ViewControllers */,
+				52242671247BF7A6005BDDD8 /* StoryBored */,
+				52242630247BB610005BDDD8 /* Assets.xcassets */,
+				5285543224C88AC600A9DA8E /* imgaes and mo */,
+				5285542F24C7949B00A9DA8E /* 350:350l.png */,
+				5245657324D85764003BA7B7 /* Aya21.png */,
+				5285542E24C7949B00A9DA8E /* 350:350r.png */,
+				5245657124D85626003BA7B7 /* 3502.png */,
+				5281DACA2496148A004057F6 /* Images */,
+				5281DAC724961489004057F6 /* VERSION.txt */,
+				52242632247BB610005BDDD8 /* LaunchScreen.storyboard */,
+				52650EF6247BFE7300BEA41B /* GoogleService-Info.plist */,
+				52242635247BB610005BDDD8 /* Info.plist */,
+			);
+			path = FitBook2;
+			sourceTree = "<group>";
+		};
+		5224263D247BB611005BDDD8 /* FitBook2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5224263E247BB611005BDDD8 /* FitBook2Tests.swift */,
+				52242640247BB611005BDDD8 /* Info.plist */,
+			);
+			path = FitBook2Tests;
+			sourceTree = "<group>";
+		};
+		52242648247BB611005BDDD8 /* FitBook2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				52242649247BB611005BDDD8 /* FitBook2UITests.swift */,
+				5224264B247BB611005BDDD8 /* Info.plist */,
+			);
+			path = FitBook2UITests;
+			sourceTree = "<group>";
+		};
+		5224265B247BB750005BDDD8 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				5224262B247BB60D005BDDD8 /* ViewController.swift */,
+				52242629247BB60D005BDDD8 /* SceneDelegate.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		52242671247BF7A6005BDDD8 /* StoryBored */ = {
+			isa = PBXGroup;
+			children = (
+				5224262D247BB60D005BDDD8 /* Main.storyboard */,
+			);
+			path = StoryBored;
+			sourceTree = "<group>";
+		};
+		52242672247BF7D6005BDDD8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				526FDADA24AC8D3500F68290 /* model */,
+				52242657247BB728005BDDD8 /* SignInViewController.swift */,
+				52242659247BB744005BDDD8 /* SignUpViewController.swift */,
+				5285543324C9E86200A9DA8E /* HaertRate.swift */,
+				52242665247BD1F2005BDDD8 /* DiscaverViewController.swift */,
+				5224266B247BD229005BDDD8 /* ActivityViewController.swift */,
+				52242668247BD211005BDDD8 /* CameraViewController.swift */,
+				5224266E247BD24F005BDDD8 /* ProfileViewController.swift */,
+				52242662247BD1C4005BDDD8 /* HomeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		526FDADA24AC8D3500F68290 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				526FDADB24AC8D7100F68290 /* Post.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		5285543224C88AC600A9DA8E /* imgaes and mo */ = {
+			isa = PBXGroup;
+			children = (
+				52F5D7AD24C23BDE002EC18B /* home.mp4 */,
+				52F5D7AB24C237D9002EC18B /* hr.jpeg */,
+				52F5D7A724C22C91002EC18B /* BMI.png */,
+				5285542A24C6384C00A9DA8E /* field.jpg */,
+				52F5D7A524C22A9B002EC18B /* HAERT RATE .png */,
+				52F5D7A924C2377E002EC18B /* bmi.jpeg */,
+				52828ECE249F83BF00B44CC7 /* barpp.JPG */,
+				52FDE7B024BF733600E26ECA /* runing person.jpeg */,
+				52F5D7A324C22A72002EC18B /* friends.jpeg */,
+				5285542C24C63AE600A9DA8E /* run.jpeg */,
+			);
+			path = "imgaes and mo";
+			sourceTree = "<group>";
+		};
+		52F5D79E24C20D5A002EC18B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52F5D79F24C20D6C002EC18B /* View */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52F5D79F24C20D6C002EC18B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52F5D7A024C20D74002EC18B /* ViewModel */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52F5D7A024C20D74002EC18B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52242623247BB60D005BDDD8 /* FitBook2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5224264E247BB611005BDDD8 /* Build configuration list for PBXNativeTarget "FitBook2" */;
+			buildPhases = (
+				1004C78F2AA03FB30DED7720 /* [CP] Check Pods Manifest.lock */,
+				52242620247BB60D005BDDD8 /* Sources */,
+				52242621247BB60D005BDDD8 /* Frameworks */,
+				52242622247BB60D005BDDD8 /* Resources */,
+				4FC0196809C0F16C8C61929A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitBook2;
+			productName = FitBook2;
+			productReference = 52242624247BB60D005BDDD8 /* FitBook2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52242639247BB611005BDDD8 /* FitBook2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52242651247BB611005BDDD8 /* Build configuration list for PBXNativeTarget "FitBook2Tests" */;
+			buildPhases = (
+				52242636247BB611005BDDD8 /* Sources */,
+				52242637247BB611005BDDD8 /* Frameworks */,
+				52242638247BB611005BDDD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5224263C247BB611005BDDD8 /* PBXTargetDependency */,
+			);
+			name = FitBook2Tests;
+			productName = FitBook2Tests;
+			productReference = 5224263A247BB611005BDDD8 /* FitBook2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52242644247BB611005BDDD8 /* FitBook2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52242654247BB611005BDDD8 /* Build configuration list for PBXNativeTarget "FitBook2UITests" */;
+			buildPhases = (
+				52242641247BB611005BDDD8 /* Sources */,
+				52242642247BB611005BDDD8 /* Frameworks */,
+				52242643247BB611005BDDD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52242647247BB611005BDDD8 /* PBXTargetDependency */,
+			);
+			name = FitBook2UITests;
+			productName = FitBook2UITests;
+			productReference = 52242645247BB611005BDDD8 /* FitBook2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5224261C247BB60D005BDDD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "BAR SEGEV";
+				TargetAttributes = {
+					52242623247BB60D005BDDD8 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					52242639247BB611005BDDD8 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 52242623247BB60D005BDDD8;
+					};
+					52242644247BB611005BDDD8 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 52242623247BB60D005BDDD8;
+					};
+				};
+			};
+			buildConfigurationList = 5224261F247BB60D005BDDD8 /* Build configuration list for PBXProject "FitBook2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5224261B247BB60D005BDDD8;
+			productRefGroup = 52242625247BB60D005BDDD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52242623247BB60D005BDDD8 /* FitBook2 */,
+				52242639247BB611005BDDD8 /* FitBook2Tests */,
+				52242644247BB611005BDDD8 /* FitBook2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52242622247BB60D005BDDD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5285543124C7949B00A9DA8E /* 350:350l.png in Resources */,
+				52FDE7B124BF733600E26ECA /* runing person.jpeg in Resources */,
+				52F5D7AC24C237D9002EC18B /* hr.jpeg in Resources */,
+				52242634247BB610005BDDD8 /* LaunchScreen.storyboard in Resources */,
+				52650EF7247BFE7300BEA41B /* GoogleService-Info.plist in Resources */,
+				5245657424D85764003BA7B7 /* Aya21.png in Resources */,
+				52242631247BB610005BDDD8 /* Assets.xcassets in Resources */,
+				5285542D24C63AE700A9DA8E /* run.jpeg in Resources */,
+				5281DAD12496148A004057F6 /* Images in Resources */,
+				5285542B24C6384D00A9DA8E /* field.jpg in Resources */,
+				5245657224D85626003BA7B7 /* 3502.png in Resources */,
+				52828ECF249F83BF00B44CC7 /* barpp.JPG in Resources */,
+				5281DACE2496148A004057F6 /* VERSION.txt in Resources */,
+				5224262F247BB60D005BDDD8 /* Main.storyboard in Resources */,
+				5285543024C7949B00A9DA8E /* 350:350r.png in Resources */,
+				52F5D7AA24C2377F002EC18B /* bmi.jpeg in Resources */,
+				52F5D7A824C22C91002EC18B /* BMI.png in Resources */,
+				52F5D7A624C22A9B002EC18B /* HAERT RATE .png in Resources */,
+				52F5D7A424C22A72002EC18B /* friends.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52242638247BB611005BDDD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52242643247BB611005BDDD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1004C78F2AA03FB30DED7720 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitBook2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FC0196809C0F16C8C61929A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitBook2/Pods-FitBook2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitBook2/Pods-FitBook2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FitBook2/Pods-FitBook2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52242620247BB60D005BDDD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52242658247BB728005BDDD8 /* SignInViewController.swift in Sources */,
+				52F5D7B124C4E908002EC18B /* ArtworkViews.swift in Sources */,
+				5224262C247BB60D005BDDD8 /* ViewController.swift in Sources */,
+				529383F324BE28E200CCEB1F /* Artwork.swift in Sources */,
+				5224266F247BD24F005BDDD8 /* ProfileViewController.swift in Sources */,
+				526FDADC24AC8D7100F68290 /* Post.swift in Sources */,
+				52015A3C24B30FCE009EEE5E /* AppDelegate.swift in Sources */,
+				52242666247BD1F2005BDDD8 /* DiscaverViewController.swift in Sources */,
+				5224266C247BD229005BDDD8 /* ActivityViewController.swift in Sources */,
+				5224262A247BB60D005BDDD8 /* SceneDelegate.swift in Sources */,
+				5285543424C9E86300A9DA8E /* HaertRate.swift in Sources */,
+				5224265A247BB744005BDDD8 /* SignUpViewController.swift in Sources */,
+				524D83AC24B30E88002FF34E /* config.swift in Sources */,
+				52242663247BD1C5005BDDD8 /* HomeViewController.swift in Sources */,
+				52242669247BD211005BDDD8 /* CameraViewController.swift in Sources */,
+				524D83AE24B30ED0002FF34E /* AuthService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52242636247BB611005BDDD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5224263F247BB611005BDDD8 /* FitBook2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52242641247BB611005BDDD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52242670247BD24F005BDDD8 /* ProfileViewController.swift in Sources */,
+				52242667247BD1F2005BDDD8 /* DiscaverViewController.swift in Sources */,
+				5224264A247BB611005BDDD8 /* FitBook2UITests.swift in Sources */,
+				52242664247BD1C5005BDDD8 /* HomeViewController.swift in Sources */,
+				5224266D247BD229005BDDD8 /* ActivityViewController.swift in Sources */,
+				5224266A247BD211005BDDD8 /* CameraViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5224263C247BB611005BDDD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52242623247BB60D005BDDD8 /* FitBook2 */;
+			targetProxy = 5224263B247BB611005BDDD8 /* PBXContainerItemProxy */;
+		};
+		52242647247BB611005BDDD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52242623247BB60D005BDDD8 /* FitBook2 */;
+			targetProxy = 52242646247BB611005BDDD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5224262D247BB60D005BDDD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5224262E247BB60D005BDDD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52242632247BB610005BDDD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52242633247BB610005BDDD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5224264C247BB611005BDDD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5224264D247BB611005BDDD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5224264F247BB611005BDDD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64DA553F3070BB36EAABAF9C /* Pods-FitBook2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UM4265NADQ;
+				INFOPLIST_FILE = FitBook2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = barsegev.FitBook2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52242650247BB611005BDDD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EFA9C074C9617B8D12E8533 /* Pods-FitBook2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UM4265NADQ;
+				INFOPLIST_FILE = FitBook2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = barsegev.FitBook2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52242652247BB611005BDDD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UM4265NADQ;
+				INFOPLIST_FILE = FitBook2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = barsegev.FitBook2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitBook2.app/FitBook2";
+			};
+			name = Debug;
+		};
+		52242653247BB611005BDDD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UM4265NADQ;
+				INFOPLIST_FILE = FitBook2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = barsegev.FitBook2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitBook2.app/FitBook2";
+			};
+			name = Release;
+		};
+		52242655247BB611005BDDD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UM4265NADQ;
+				INFOPLIST_FILE = FitBook2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = barsegev.FitBook2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitBook2;
+			};
+			name = Debug;
+		};
+		52242656247BB611005BDDD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UM4265NADQ;
+				INFOPLIST_FILE = FitBook2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = barsegev.FitBook2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitBook2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5224261F247BB60D005BDDD8 /* Build configuration list for PBXProject "FitBook2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5224264C247BB611005BDDD8 /* Debug */,
+				5224264D247BB611005BDDD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5224264E247BB611005BDDD8 /* Build configuration list for PBXNativeTarget "FitBook2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5224264F247BB611005BDDD8 /* Debug */,
+				52242650247BB611005BDDD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52242651247BB611005BDDD8 /* Build configuration list for PBXNativeTarget "FitBook2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52242652247BB611005BDDD8 /* Debug */,
+				52242653247BB611005BDDD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52242654247BB611005BDDD8 /* Build configuration list for PBXNativeTarget "FitBook2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52242655247BB611005BDDD8 /* Debug */,
+				52242656247BB611005BDDD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5224261C247BB60D005BDDD8 /* Project object */;
+}
